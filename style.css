@@ -1,6 +1,14 @@
 
 /* ---------HEADER---------- */
-
+.header{
+    padding-left: 8rem;
+}
 .profession{
     font-size: 4rem;
+}
+/* --------------MOBILE---------- */
+@media screen and (max-width:540px) {
+    .header{
+        padding-left: 0rem;
+    }
 }
