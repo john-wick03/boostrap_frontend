@@ -40,11 +40,18 @@
 }
 @media screen and (min-width:768px) {
     .card-img-info{
+
        margin-right: 20px; 
+    }
+    .header{
+        padding-left: 0rem;
     }
 }
 @media screen and (min-width:1200px) {
     .card-img-info{
        margin-right: 0px; 
+    }
+    .header{
+        padding-left: 8rem;
     }
 }
