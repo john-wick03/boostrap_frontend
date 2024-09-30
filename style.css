@@ -4,7 +4,6 @@
 /* ---------HEADER---------- */
 .header{
     padding-left: 8rem;
-    
 }
 .container{
    margin-inline: 8rem;
@@ -13,7 +12,7 @@
     font-size: 4rem;
 }
 .company-icons{
-    gap:   5.7rem;
+    gap: 5.7rem;
 }
 .card{
     width: 20rem;
@@ -33,5 +32,19 @@
     }
     .container{
         margin-inline: 1rem;
+    }
+    .card-img-info{
+        margin-left: 3rem;
+    }
+
+}
+@media screen and (min-width:768px) {
+    .card-img-info{
+       margin-right: 20px; 
+    }
+}
+@media screen and (min-width:1200px) {
+    .card-img-info{
+       margin-right: 0px; 
     }
 }
