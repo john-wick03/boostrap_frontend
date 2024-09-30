@@ -4,6 +4,10 @@
 /* ---------HEADER---------- */
 .header{
     padding-left: 8rem;
+    
+}
+.container{
+   margin-inline: 8rem;
 }
 .profession{
     font-size: 4rem;
@@ -15,6 +19,9 @@
     width: 20rem;
 
 }
+.read-more{
+    top: 10rem;
+}
 /* --------------MOBILE---------- */
 @media screen and (max-width:540px) {
     .header{
@@ -23,5 +30,8 @@
     .card-container{
        position: relative;
        left: 70px;
+    }
+    .container{
+        margin-inline: 1rem;
     }
 }
