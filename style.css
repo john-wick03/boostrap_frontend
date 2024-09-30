@@ -6,6 +6,9 @@
 .profession{
     font-size: 4rem;
 }
+.placeholder{
+    color: aliceblue;
+}
 /* --------------MOBILE---------- */
 @media screen and (max-width:540px) {
     .header{
