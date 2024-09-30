@@ -29,6 +29,7 @@
  .header-container{
     margin-left: 0rem;
  }
+ 
 
  .profession{
     font-size: 3rem;
@@ -48,6 +49,7 @@
     }
     .company-icons{
         gap: 4rem;
+        margin-left: 0;
     }
     .container-fluid{
         margin-left: 0rem;
@@ -60,5 +62,8 @@
     }
     .header-container{
         margin-left: 4rem;
+    }
+    .company-icons{
+        margin-left: 2rem;
     }
 }
