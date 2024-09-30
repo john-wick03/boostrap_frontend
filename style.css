@@ -26,6 +26,9 @@
  .header{
     margin-left: 2rem;
  }
+ .header-container{
+    margin-left: 0rem;
+ }
 
  .profession{
     font-size: 3rem;
@@ -54,5 +57,8 @@
 @media screen and (min-width:1200px) {
     .container-fluid{
         margin-left: 7rem;
+    }
+    .header-container{
+        margin-left: 4rem;
     }
 }
