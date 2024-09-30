@@ -13,7 +13,8 @@
     <title>Document</title>
 </head>
 
-<body class=" overflow-x-hidden">
+<body class="overflow-x-hidden">
+    <div class="main-container">
     <div class="container">
         <!---------- nav ----------->
         <nav class="navbar navbar-expand-lg bg-body-white mt-3">
@@ -44,8 +45,8 @@
 
     <!-- ----------HEADER-------------- -->
     <header class="bg-light p-5">
-        <div class="row header py-5">
-            <div class="col-12 col-md-8">
+        <div class="row header header-container py-5">
+            <div class="col-12 col-md-6">
                 <h5 class="profession">Lessons and Insights</h5>
                 <h2 class="text-success profession">From 8 years</h2>
                 <p>Where to grow you buisness as a photographer:site or social media</p>
@@ -57,7 +58,7 @@
         </div>
     </header>
     <!-- Container start -->
-    <div class="mt-5 container">
+    <div class="mt-5 container first-container">
         <div class="text-center">
 
             <h2>Our Clients</h2>
@@ -98,7 +99,7 @@
         </div>
         <!-- -------BUISNESS CARDS-------- -->
         <section class="mt-5">
-            <div class="row row-cols-1 row-cols-md-3 g-4 card-container">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                     <div class="card border-white">
                         <div class="text-center">
@@ -154,15 +155,15 @@
         </div>
     </div>
     <!-- -------HARD WORK--------- -->
-    <div class="row p-5 bg-light contain">
+    <div class="row p-5 bg-light">
         <!-- first col -->
-        <div class="col-12 header col-md-6">
+        <div class="col-12 header  col-md-6">
             <h2>Having a local</h2>
             <h2 class="text-success">Buisness Reivnent itself</h2>
             <p>We reached here with our hard work and dedicartion </p>
         </div>
         <!-- second col -->
-        <div class="col-12 col-md-3">
+        <div class="col-12 col-md-2">
             <div class="row">
                 <div class="col-6">
                     <div class="d-flex justify-content-center">
@@ -191,7 +192,7 @@
             </div>
 
         </div>
-        <div class="col-12 col-md-3">
+        <div class="col-12 col-md-2">
             <div class="row">
                 <div class="col-6">
                     <div class="d-flex justify-content-center">
@@ -241,7 +242,7 @@
         <!-------Calender end-------->
         <!-------Customer Section Start------>
         <div class="row py-5 container">
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-3">
                 <img src="/boostrap_frontend/images/customer-img.svg" alt="#">
             </div>
             <div class="col-12 col-md-7 ms-4">
@@ -254,7 +255,7 @@
                     condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.</p>
                 <h4 class="text-success">Tim Smith</h4>
                 <p>British Dragon Boat Racing Association</p>
-                <div class="d-flex ">
+                <div class="d-flex">
                     <img src="/boostrap_frontend/images/customer-Logo-1.svg" class="pe-4" alt="#">
                     <img src="/boostrap_frontend/images/customer-Logo-2.svg" class="pe-4" alt="#">
                     <img src="/boostrap_frontend/images/customer-Logo-3.svg" class="pe-4" alt="#">
@@ -279,7 +280,7 @@
         <section class="mt-5">
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <!-- -----1 CARD------- -->
-                <div class="col-12 col-md-3  col-lg-4 py-5 card-img-info">
+                <div class="col4 col-md-4  col-lg-4 py-5 card-img-info">
                     <div class="card border-white">
                         <div>
                             <img src="/boostrap_frontend/images/marketing-icon (2).svg" class="card-img-top"
@@ -293,26 +294,26 @@
                     </div>
                 </div>
                 <!-- ----2 CARD------- -->
-                <div class="col-12  col-md-3 col-lg-4 py-5 card-img-info">
+                <div class="col-12  col-md-4 col-lg-4 py-5 card-img-info">
                     <div class="card border-white">
                         <div>
                             <img src="/boostrap_frontend/images/marketing-icon.svg" class="card-img-top" alt="image">
                         </div>
                         <div class="position-absolute rounded-3 shadow p-4 text-center read-more bg-light">
                             <h6 class="card-text">What are your safeguarding responsibilities and how can you manage
-                                them?</h6>
+                                </h6>
                             <a href="#" class="text-success fs-5 nav-link">Read more →</a>
                         </div>
                     </div>
                 </div>
                 <!-- --------3 CARD------- -->
-                <div class="col-12 col-md-3 col-lg-4 py-5 card-img-info">
+                <div class="col-12 col-md-4 col-lg-4 py-5 card-img-info">
                     <div class="card border-white">
                         <div>
-                            <img src="/boostrap_frontend/images/marketing-icon (1).svg" class="card-img-top"
+                            <img src="/boostrap_frontend/images/marketing-icon (1).svg" class="card-img-top" 
                                 alt="image">
                         </div>
-                        <div class="position-absolute rounded-3 shadow p-4 text-center read-more bg-light">
+                        <div class="position-absolute rounded-3 shadow p-4  text-center read-more bg-light">
                             <h6 class="card-text">Revamping the Membership card with most Triathlon tour Australia
                                 visitors</h6>
                             <a href="#" class="text-success fs-5 nav-link">Read more →</a>
@@ -331,6 +332,8 @@
             </div>
         </div>
     </div>
+</div>
+
     <!-- FOOTER------ -->
     <footer class="bg-dark pt-5">
         <div class="container text-center text-md-start mt-5 list-unstyled">

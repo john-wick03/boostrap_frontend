@@ -1,61 +1,58 @@
 *{
     color: #717171;
+    margin-inline: auto;
 }
-
 /* ---------HEADER---------- */
-.container{
-   margin: auto;
-}
 .profession{
     font-size: 4rem;
 }
 .card{
     width: 20rem;
 }
+.header{
+    margin-left: 5rem;
+}
+.company-icons{
+    gap: 5rem;
+}
 .read-more{
-    top: 10rem;
+    width: 70%;
+    top: 8rem;
+    left: 3rem;
 }
 
 /* --------------MOBILE---------- */
 @media screen and (max-width:540px) {
-    .header{
-        padding-left: 0rem;
-    }
-    .card-container{
-       position: relative;
-       left: 70px;
-    }
-    .container{
-        margin-inline: 1rem;
-    }
-    .card-img-info{
-        margin-left: 3rem;
-    }
+ .header{
+    margin-left: 2rem;
+ }
 
+ .profession{
+    font-size: 3rem;
+}
+.container-fluid{
+    margin-left: 0rem;
+}
+  
+  
 }
 @media screen and (min-width:768px) {
-    .card-img-info{
-
-       margin-right: 20px; 
-    }
+    .header-container{
+        margin-left: -5rem;
+     }
     .header{
         padding-left: 0rem;
     }
     .company-icons{
         gap: 4rem;
     }
+    .container-fluid{
+        margin-left: 0rem;
+    }
 
 }
 @media screen and (min-width:1200px) {
-    .card-img-info{
-       margin-right: 0px; 
+    .container-fluid{
+        margin-left: 7rem;
     }
-    .header{
-        padding-left: 8rem;
-        
-    }
-    .company-icons{
-        gap: 5rem;
-    }
-
 }
