@@ -1,18 +1,13 @@
 *{
     color: #717171;
 }
+
 /* ---------HEADER---------- */
-.header{
-    padding-left: 8rem;
-}
 .container{
-   margin-inline: 8rem;
+   margin: auto;
 }
 .profession{
     font-size: 4rem;
-}
-.company-icons{
-    gap: 5.7rem;
 }
 .card{
     width: 20rem;
@@ -46,6 +41,10 @@
     .header{
         padding-left: 0rem;
     }
+    .company-icons{
+        gap: 4rem;
+    }
+
 }
 @media screen and (min-width:1200px) {
     .card-img-info{
@@ -53,5 +52,10 @@
     }
     .header{
         padding-left: 8rem;
+        
     }
+    .company-icons{
+        gap: 5rem;
+    }
+
 }
