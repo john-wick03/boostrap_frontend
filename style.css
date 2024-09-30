@@ -12,21 +12,16 @@
 .profession{
     font-size: 4rem;
 }
-<<<<<<< HEAD
-.placeholder{
-    color: aliceblue;
-=======
 .company-icons{
     gap:   5.7rem;
 }
 .card{
     width: 20rem;
-
 }
 .read-more{
     top: 10rem;
->>>>>>> 93618b0c6f06dc01e39d9881d6563fe14c9c9ed6
 }
+
 /* --------------MOBILE---------- */
 @media screen and (max-width:540px) {
     .header{
