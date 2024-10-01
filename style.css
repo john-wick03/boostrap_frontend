@@ -1,16 +1,14 @@
+
+/* ---------HEADER---------- */
 *{
-    color: #717171;
+    color: #4D4D4D;
     margin-inline: auto;
 }
-/* ---------HEADER---------- */
-.profession{
-    font-size: 4rem;
+.nav-bar{
+    margin-inline: 0;
 }
 .card{
     width: 20rem;
-}
-.header{
-    margin-left: 5rem;
 }
 .company-icons{
     gap: 5rem;
@@ -20,33 +18,36 @@
     top: 8rem;
     left: 3rem;
 }
-
+.marketing-card{
+    margin-bottom: 7rem;
+}
+.text-color{
+    color: #717171;
+}
+.email{
+    margin-top: -1rem;
+}
+.hard-work-container, .pods-section{
+    background-color: #F5F7FA;
+}
+.btn{
+    background-color: #4CAF4F;
+}
+footer{
+    background-color: #263238;
+}
 /* --------------MOBILE---------- */
 @media screen and (max-width:540px) {
- .header{
-    margin-left: 2rem;
- }
- .header-container{
-    margin-left: 0rem;
- }
  
-
  .profession{
     font-size: 3rem;
 }
 .container-fluid{
     margin-left: 0rem;
 }
-  
-  
 }
 @media screen and (min-width:768px) {
-    .header-container{
-        margin-left: -5rem;
-     }
-    .header{
-        padding-left: 0rem;
-    }
+
     .company-icons{
         gap: 4rem;
         margin-left: 0;
@@ -54,16 +55,20 @@
     .container-fluid{
         margin-left: 0rem;
     }
+    .profession{
+        font-size: 3rem;
+    }
 
 }
 @media screen and (min-width:1200px) {
     .container-fluid{
-        margin-left: 7rem;
-    }
-    .header-container{
-        margin-left: 4rem;
+        margin-left: 8rem;
     }
     .company-icons{
-        margin-left: 2rem;
+        margin-left: 3rem;
     }
+    .profession{
+        font-size: 3.5rem;
+    }
+
 }
