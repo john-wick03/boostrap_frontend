@@ -1,102 +1,113 @@
-
-/* ---------HEADER---------- */
-*{
+/* Base Styles */
+* {
     color: #4D4D4D;
     margin-inline: auto;
 }
-.card{
-    width: 20rem;
+.card {
+    /* width: 30rem; */
 }
-.company-icons{
+.company-icons {
     gap: 5rem;
 }
-.read-more{
-    width: 70%;
-    top: 8rem;
-    left: 3rem;
-}
-.marketing-card{
-    margin-bottom: 7rem;
-}
-.text-color{
+.text-color {
     color: #717171;
 }
-.email{
+.email {
     margin-top: -1rem;
 }
-.hard-work-container, .pods-section{
+.hard-work-container,
+.pods-section {
     background-color: #F5F7FA;
 }
-.btn{
+.btn {
     background-color: #4CAF4F;
 }
-footer{
+footer {
     background-color: #263238;
 }
-/* --------------MOBILE---------- */
-@media screen and (max-width:540px) {
- 
- .profession{
-    font-size: 3rem;
-}
-.demo-info{
-    font-size: 2rem;
-}
-.navbar-brand{
-    margin-left: -1rem;
-}
-}
-@media screen and (min-width:768px) {
 
-    .company-icons{
-        gap: 4rem;
+/* --------------MOBILE---------- */
+@media screen and (max-width: 540px) {
+    .profession {
+        font-size: 3rem;
+    }
+    .demo-info {
+        font-size: 2rem;
+    }
+    .navbar-brand {
+        margin-left: -0.7rem;
+    }
+    .read-more {
+        width: 20rem;
+        bottom: 1rem;
+        left: 4.1rem;
+    }
+}
+
+@media screen and (min-width: 541px) and (max-width: 767px) {
+    .profession {
+        font-size: 3rem;
+    }
+    .demo-info {
+        font-size: 2.5rem;
+    }
+    .navbar-brand {
         margin-left: 0;
     }
-    .buisness-card{
-        
-        margin-left: -6rem;
+    .profession-img {
+        margin-top: 3rem;
     }
-  
-    .profession{
+}
+
+@media screen and (min-width: 768px) {
+    .company-icons {
+        gap: 4rem;
+        margin-left: 2rem;
+    }
+    .profession {
         font-size: 3rem;
     }
-    .demo-info{
+    .demo-info {
         font-size: 3rem;
     }
-    .navbar-brand{
-        margin-left: 7px
+    .navbar-brand {
+        margin-left: 7px;
     }
-    header{
+    header {
         margin-left: -5rem;
     }
-   
-
+    .read-more {
+        width: 20rem;
+        bottom: 1rem;
+        left: 0.5rem;
+    }
 }
-@media screen and (min-width:1200px) {
-    .container-fluid{
+
+@media screen and (min-width: 1200px) {
+    .container-fluid {
         margin-left: 8rem;
     }
-    .company-icons{
+    .company-icons {
         margin-left: 3rem;
     }
-    .buisness-card{
-        
-        margin-left: 0;
-    }
-    .profession{
+    .profession {
         font-size: 3.5rem;
     }
-    .demo-info{
+    .read-more {
+        width: 20rem;
+        bottom: 1rem;
+        left: 3rem;
+    }
+    .demo-info {
         font-size: 4rem;
     }
-    .navbar-brand{
+    .navbar-brand {
         margin-left: -4rem;
     }
-    .navbar-nav{
+    .navbar-nav {
         margin-right: -0.5rem;
     }
-    header{
+    header {
         margin-left: 0;
     }
-
 }
